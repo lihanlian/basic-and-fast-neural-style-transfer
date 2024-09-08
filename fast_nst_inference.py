@@ -49,7 +49,7 @@ def apply_style(image_path, output_name, model_name):
 
 content_weight = 1; style_weight = 50000
 num_epoch = 1
-style_img_name = 'monet'
+style_img_name = 'picasso'
 content_img_name = 'minion1'
 model_name = f'{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}'
 apply_style(image_path=f'./figs/input_content/{content_img_name}.jpg', 
