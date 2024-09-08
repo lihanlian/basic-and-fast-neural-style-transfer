@@ -9,36 +9,11 @@ This repository is on using two different approaches for doing **neural style (n
   <img alt="Image 1" src="/figs/input_content/minion1.jpg" width="35%" />
   <img alt="Image 2" src="/figs/input_content/minion2.jpg" width="35%" />
 </p>
+
 **Style image**
-<!-- <figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
-  <img src='/figs/input_style/monet.jpg' style="width: 25%;">
-  <img src='/figs/input_style/van_gogh.jpg' style="width: 25%;">
-  <img src='/figs/input_style/picasso.jpg' style="width: 25%;">
-  <figcaption style="text-align: center;">Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
-</figure> -->
-<!-- <figure style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <img src='/figs/input_style/monet.jpg' style="width: 35%; margin: 0 10px;">
-    <img src='/figs/input_style/van_gogh.jpg' style="width: 35%; margin: 0 10px;">
-    <img src='/figs/input_style/picasso.jpg' style="width: 35%; margin: 0 10px;">
-</figure>
-<figcaption style="text-align: center;">>Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption> -->
-
-<!-- <table>
-  <tr>
-    <td><img src='figs/input_style/monet.jpg' style="width: 30%;"></td>
-    <td><img src='/figs/input_style/van_gogh.jpg' style="width: 30%;"></td>
-    <td><img src='/figs/input_style/picasso.jpg' style="width: 30%;"></td>
-  </tr>
-  <tr>
-    <td colspan="3" style="text-align: center;">
-      <figcaption>Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
-    </td>
-  </tr>
-</table> -->
-
 <p align="center">
   <img alt="Image 1" src="figs/input_style/monet.jpg" width="30%" />
-  <img alt="Image 2" src="/figs/input_style/van_gogh.jpg" width="30%" />
+  <img alt="Image 2" src="/figs/input_style/van_gogh.jpg" width="32%" />
   <img alt="Image 3" src="/figs/input_style/picasso.jpg" width="30%" />
 </p>
 
@@ -52,15 +27,32 @@ This repository is on using two different approaches for doing **neural style (n
 
 **Basic NST Output**
 
-<table>
+<!-- <table>
   <tr>
     <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
     <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
+    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
   </tr>
   <tr>
     <td colspan="3" style="text-align: center;">
       <figcaption>    a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
+    </td>
+  </tr>
+</table> -->
+
+**Basic NST Output**
+
+<table>
+  <tr>
+    <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
+    <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
+    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
+  </tr>
+  <tr>
+    <td colspan="3" style="text-align: center;">
+      <div style="display: flex; justify-content: center;">
+        a = 1 for all, b = 0.01, 100, 100000 from left to right
+      </div>
     </td>
   </tr>
 </table>
