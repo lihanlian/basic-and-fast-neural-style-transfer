@@ -16,14 +16,14 @@ This repository is on using two different approaches for doing **neural style (n
   <img src='/figs/input_style/picasso.jpg' style="width: 25%;">
   <figcaption style="text-align: center;">Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
 </figure> -->
-<figure style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<!-- <figure style="display: flex; justify-content: center; align-items: center; width: 100%;">
     <img src='/figs/input_style/monet.jpg' style="width: 35%; margin: 0 10px;">
     <img src='/figs/input_style/van_gogh.jpg' style="width: 35%; margin: 0 10px;">
     <img src='/figs/input_style/picasso.jpg' style="width: 35%; margin: 0 10px;">
 </figure>
-<figcaption style="text-align: center;">>Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
+<figcaption style="text-align: center;">>Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption> -->
 
-<table>
+<!-- <table>
   <tr>
     <td><img src='figs/input_style/monet.jpg' style="width: 30%;"></td>
     <td><img src='/figs/input_style/van_gogh.jpg' style="width: 30%;"></td>
@@ -34,7 +34,13 @@ This repository is on using two different approaches for doing **neural style (n
       <figcaption>Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
     </td>
   </tr>
-</table>
+</table> -->
+
+<p align="center">
+  <img alt="Image 1" src="figs/input_style/monet.jpg" width="30%" />
+  <img alt="Image 2" src="/figs/input_style/van_gogh.jpg" width="30%" />
+  <img alt="Image 3" src="/figs/input_style/picasso.jpg" width="30%" />
+</p>
 
 <!-- **Basic NST Output**
 <figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
@@ -54,7 +60,7 @@ This repository is on using two different approaches for doing **neural style (n
   </tr>
   <tr>
     <td colspan="3" style="text-align: center;">
-      <figcaption>a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
+      <figcaption>    a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
     </td>
   </tr>
 </table>
