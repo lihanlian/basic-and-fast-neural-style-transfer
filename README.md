@@ -1,23 +1,23 @@
 
 ## Overview
 
-This repository is on using two different approaches for doing **neural style (nst) transfer**. Code is implemented using **Ubuntu** system with **Python 3.10.14**. [LFW Dataset](http://vis-www.cs.umass.edu/lfw/) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/2024/07/31). 
+This repository is on using two different approaches for doing **neural style (nst) transfer**. Code is implemented using **Ubuntu** system with **Python 3.10.14**. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/blog4). 
 
 **Content image**
 
 **Style image**
 <figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
   <img src='/figs/input_style/monet.jpg' style="width: 30%;">
-  <img src='/figs/input_style/van_gogh.jpg' style="width: 32%;">
-  <img src='/figs/input_style/picasso.jpg' style="width: 31%;">
+  <img src='/figs/input_style/van_gogh.jpg' style="width: 30%;">
+  <img src='/figs/input_style/picasso.jpg' style="width: 30%;">
   <figcaption style="text-align: center;">Used style images from portrait of different artists: Claude Monet, Vincent van Gogh, Pablo Picasso (from let to right)</figcaption>
 </figure>
 
 **Basic NST Output**
 <figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
-  <img src='/figs/output_basic_nst/monet/minion1_a1b100_20000' style="width: 30%;">
-  <img src='/figs/output_basic_nst/picasso/minion1_a1b100_20000' style="width: 30%;">
-  <img src='/figs/output_basic_nst/van_gogh/minion1_a1b100_20000.jpg' style="width: 30%;">
+  <img src='/figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 30%;">
+  <img src='/figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 30%;">
+  <img src='/figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 30%;">
   <figcaption style="text-align: center;">a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
 </figure>
 
