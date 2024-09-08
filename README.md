@@ -20,7 +20,14 @@ This repository is on using two different approaches for doing **neural style (n
 
 **Basic NST Output**
 
-<table>
+<p align="center">
+  <img alt="Image 1" src="figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg" width="30%" />
+  <img alt="Image 2" src="figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg" width="30%" />
+  <img alt="Image 3" src="figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg" width="30%" />
+</p>
+<p align="center">a = 1 for all, b = 0.01, 100, 100000 from left to right</p>
+
+<!-- <table>
   <tr>
     <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
     <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
@@ -33,7 +40,7 @@ This repository is on using two different approaches for doing **neural style (n
       </div>
     </td>
   </tr>
-</table>
+</table> -->
 
 
 <!-- **Basic NST Output**
