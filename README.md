@@ -5,6 +5,10 @@ This repository is on using two different approaches for doing **neural style (n
 
 **Content image**
 
+<figure style="display: flex; justify-content: center; align-items: center; width: 100%;">
+    <img src='/figs/input_content/minion1.jpg' style="width: 45%; margin: 0 10px;">
+    <img src='/figs//input_content/minion2.jpg' style="width: 45%; margin: 0 10px;">
+</figure>
 **Style image**
 <!-- <figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
   <img src='/figs/input_style/monet.jpg' style="width: 25%;">
@@ -29,9 +33,9 @@ This repository is on using two different approaches for doing **neural style (n
 **Basic NST Output**
 
 <figure style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 35%; margin: 0 10px;">
-    <img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 35%; margin: 0 10px;">
-    <img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 35%; margin: 0 10px;">
+    <img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 25%; margin: 0 10px;">
+    <img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 25%; margin: 0 10px;">
+    <img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 25%; margin: 0 10px;">
 </figure>
 <figcaption style="text-align: center;">a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
 
