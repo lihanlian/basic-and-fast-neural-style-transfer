@@ -33,8 +33,7 @@ This repository is on using two different approaches for doing **neural style (n
 <p align="center">
   <img alt="Image 1" src="figs/output_fast_nst/minion1_monet_a1b50000_e1.jpg" width="30%" />
   <img alt="Image 2" src="figs/output_fast_nst/minion1_van_gogh_a1b50000_e1.jpg" width="30%" />
-  <img alt="Image 3" src="figs/output_fast_nst/minion1_picasso_a1b50000_e1.jpg
-  " width="30%" />
+  <img alt="Image 3" src="figs/output_fast_nst/minion1_picasso_a1b50000_e1.jpg" width="30%" />
 </p>
 <p align="center">a = 1, b = 50000 for all models</p>
 
