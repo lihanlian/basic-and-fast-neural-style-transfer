@@ -9,6 +9,7 @@ This repository is on using two different approaches for doing **neural style (n
   <img alt="Image 1" src="/figs/input_content/minion1.jpg" width="35%" />
   <img alt="Image 2" src="/figs/input_content/minion2.jpg" width="35%" />
 </p>
+<p align="center">minion1.jpg | minion2.jpg</p>
 
 **Style image**
 <p align="center">
@@ -30,18 +31,18 @@ This repository is on using two different approaches for doing **neural style (n
 **Fast NST Output**
 
 <p align="center">
-  <img alt="Image 1" src="figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg" width="30%" />
-  <img alt="Image 2" src="figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg" width="30%" />
+  <img alt="Image 1" src="figs/output_fast_nst/minion1_monet_a1b50000_e1.jpg" width="30%" />
+  <img alt="Image 2" src="figs/output_fast_nst/minion1_van_gogh_a1b50000_e1.jpg" width="30%" />
   <img alt="Image 3" src="figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg" width="30%" />
 </p>
-<p align="center">a = 1 for all, b = 50000, 50000, 50000 from left to right</p>
+<p align="center">a = 1, b = 50000 for all models</p>
 
 <p align="center">
-  <img alt="Image 1" src="figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg" width="30%" />
+  <img alt="Image 1" src="figs/output_fast_nst/minion2_monet_a1b50000_e1.jpg" width="30%" />
   <img alt="Image 2" src="figs/output_fast_nst/minion2_van_gogh_a1b50000_e1.jpg" width="30%" />
   <img alt="Image 3" src="figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg" width="30%" />
 </p>
-<p align="center">a = 1 for all, b = 50000, 50000, 50000 from left to right</p>
+<p align="center">a = 1, b = 50000 for all models</p>
 
 ## Run Locally
 

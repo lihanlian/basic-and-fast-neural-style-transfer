@@ -80,7 +80,7 @@ transformer_net = TransformerNet().to(device)
 vgg_net = VggNet().to(device)
 
 # load style image and store its feature gram matrices.
-style_img_name = 'monet'
+style_img_name = 'picasso'
 style_img = load_img(f'./figs/input_style/{style_img_name}.jpg',shape=(720,720)).to(device)  # Define load_image to preprocess the style image
 style_img.div_(255.0)
 style_img = normmalize_img(style_img)
