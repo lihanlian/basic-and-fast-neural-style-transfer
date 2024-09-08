@@ -47,11 +47,11 @@ def apply_style(image_path, output_name, model_name):
     utils.save_image(saved_path, output)
     # save_img(output, saved_path)  # Define save_image to save the stylized image
 
-content_weight = 1; style_weight = 10000
+content_weight = 1; style_weight = 50000
 num_epoch = 1
-style_img_name = 'picasso'
-content_img_name = 'minion3'
-model_name = f'{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}_v2'
+style_img_name = 'van_gogh'
+content_img_name = 'minion1'
+model_name = f'{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}'
 apply_style(image_path=f'./figs/input_content/{content_img_name}.jpg', 
             output_name=f'{content_img_name}_{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}_v2.jpg',
             model_name=model_name)

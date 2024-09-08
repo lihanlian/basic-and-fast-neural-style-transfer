@@ -99,7 +99,7 @@ mse_loss = torch.nn.MSELoss()
 num_epochs = 1
 total_batches = len(train_loader)
 percent_interval = total_batches // 10
-content_weight = 1; style_weight = 5000
+content_weight = 1; style_weight = 50000
 print(f'Using device: {device}, style image: {style_img_name}, content weight(a): {content_weight}, style weight(b): {style_weight}')
 
 for epoch in range(num_epochs):
