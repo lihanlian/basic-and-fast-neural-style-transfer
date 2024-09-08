@@ -28,7 +28,6 @@ def get_gram_matrix_basic_nst(tensor):
     gram = torch.bmm(features, features.transpose(1,2)) # transpose second and third dimension (h and w) 
     return gram
 
-# Used for fast nst on 09/03
 def get_gram_matrix_fast_nst(tensor):
     # b: batch size, c: number of channels, h: height, w: width
     (b, c, h, w) = tensor.size()

@@ -2,8 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from tqdm import tqdm
-from torchvision import datasets, transforms, models
-from torchvision.datasets import CelebA
+from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 from PIL import Image
 from fast_nst_transformer_net import TransformerNet

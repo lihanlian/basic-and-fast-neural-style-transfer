@@ -1,11 +1,7 @@
 import torch
-import torch.nn as nn
-import torch.optim as optim
-from torchvision import datasets, transforms, models
-from torchvision.utils import save_image
+from torchvision import transforms
 from PIL import Image
 from fast_nst_transformer_net import TransformerNet
-from fast_nst_vgg_net import VggNet
 import utils
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
