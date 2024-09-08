@@ -1,7 +1,7 @@
 
 ## Overview
 
-This repository is on using two different approaches for doing **neural style (nst) transfer**. Code is implemented using **Ubuntu** system with **Python 3.10.14**. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/blog4). 
+This repository is on using two different approaches for doing **neural style (nst) transfer**. Code is implemented and tested in **Ubuntu** system with **Python 3.10**. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/blog4). 
 
 **Content image**
 
@@ -14,31 +14,9 @@ This repository is on using two different approaches for doing **neural style (n
 <p align="center">
   <img alt="Image 1" src="figs/input_style/monet.jpg" width="30%" />
   <img alt="Image 2" src="/figs/input_style/van_gogh.jpg" width="32%" />
-  <img alt="Image 3" src="/figs/input_style/picasso.jpg" width="30%" />
+  <img alt="Image 3" src="/figs/input_style/picasso.jpg" width="31%" />
 </p>
-
-<!-- **Basic NST Output**
-<figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
-  <img src='/figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 20%;">
-  <img src='/figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 20%;">
-  <img src='/figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 20%;">
-  <figcaption style="text-align: center;">a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
-</figure> -->
-
-**Basic NST Output**
-
-<!-- <table>
-  <tr>
-    <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
-  </tr>
-  <tr>
-    <td colspan="3" style="text-align: center;">
-      <figcaption>    a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption>
-    </td>
-  </tr>
-</table> -->
+<p align="center">Monet | Van Gogh | Picasso</p>
 
 **Basic NST Output**
 
