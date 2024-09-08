@@ -27,51 +27,21 @@ This repository is on using two different approaches for doing **neural style (n
 </p>
 <p align="center">a = 1 for all, b = 0.01, 100, 100000 from left to right</p>
 
-<!-- <table>
-  <tr>
-    <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
-  </tr>
-  <tr>
-    <td colspan="3" style="text-align: center;">
-      <div style="display: flex; justify-content: center;">
-        a = 1 for all, b = 0.01, 100, 100000 from left to right
-      </div>
-    </td>
-  </tr>
-</table> -->
-
-
-<!-- **Basic NST Output**
-
-<table>
-  <tr>
-    <td><img src='figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg' style="width: 100%;"></td>
-    <td><img src='figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg' style="width: 100%;"></td>
-  </tr>
-</table>
-
-<figcaption style="text-align: center;">a = 1 for all, b = 0.01, 100, 100000 from left to right</figcaption> -->
-
-
-
 **Fast NST Output**
 
-<figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
-  <img src='/figs/output_fast_nst/' style="width: 30%;">
-  <img src='/figs/output_fast_nst/' style="width: 32%;">
-  <img src='/figs/output_fast_nst/' style="width: 31%;">
-  <figcaption style="text-align: center;">a = 1 for all, b = 10000, 10000, 50000 from left to right</figcaption>
-</figure>
+<p align="center">
+  <img alt="Image 1" src="figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg" width="30%" />
+  <img alt="Image 2" src="figs/output_basic_nst/van_gogh/minion1_a1b100_25000.jpg" width="30%" />
+  <img alt="Image 3" src="figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg" width="30%" />
+</p>
+<p align="center">a = 1 for all, b = 50000, 50000, 50000 from left to right</p>
 
-<figure style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
-  <img src='/figs/output_fast_nst/' style="width: 30%;">
-  <img src='/figs/output_fast_nst/' style="width: 32%;">
-  <img src='/figs/output_fast_nst/' style="width: 31%;">
-  <figcaption style="text-align: center;">a = 1 for all, b = 10000, 10000, 50000 from left to right</figcaption>
-</figure>
+<p align="center">
+  <img alt="Image 1" src="figs/output_basic_nst/monet/minion1_a1b0.1_25000.jpg" width="30%" />
+  <img alt="Image 2" src="figs/output_fast_nst/minion2_van_gogh_a1b50000_e1.jpg" width="30%" />
+  <img alt="Image 3" src="figs/output_basic_nst/picasso/minion1_a1b100000_25000.jpg" width="30%" />
+</p>
+<p align="center">a = 1 for all, b = 50000, 50000, 50000 from left to right</p>
 
 ## Run Locally
 
@@ -102,8 +72,7 @@ Go to project directory
  3. [Johnson, Justin and Alahi, Alexandre and Li, Fei-Fei. "Perceptual losses for real-time style transfer and super-resolution." European Conference on Computer Vision. 2016](https://arxiv.org/abs/1603.08155) (Fast NST Paper)
  4. [pytorch/examples/fast_neural_style](https://github.com/pytorch/examples/tree/main/fast_neural_style) (Fast BST Implementation)
  5. [Downsampling and Upsampling of Images — Demystifying the Theory](https://medium.com/analytics-vidhya/downsampling-and-upsampling-of-images-demystifying-the-theory-4ca7e21db24a)
- 6. Gary B. Huang, Manu Ramesh, Tamara Berg, and Erik Learned-Miller. *Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments.* University of Massachusetts, Amherst, Technical Report 07-49, October, 2007. [Link](http://vis-www.cs.umass.edu/lfw/)
- 7. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace)
+ 6. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace)
 
 
 ## License
