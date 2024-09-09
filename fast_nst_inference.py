@@ -43,11 +43,14 @@ def apply_style(image_path, output_name, model_name):
     utils.save_image(saved_path, output)
     # save_img(output, saved_path)  # Define save_image to save the stylized image
 
-content_weight = 1; style_weight = 50000
-num_epoch = 1
+
+# replace with corresponding style and image name
 style_img_name = 'picasso'
 content_img_name = 'minion1'
+# replace with the corresponding hyperparameters
+content_weight = 1; style_weight = 50000, num_epoch = 1
 model_name = f'{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}'
+
 apply_style(image_path=f'./figs/input_content/{content_img_name}.jpg', 
             output_name=f'{content_img_name}_{style_img_name}_a{content_weight}b{style_weight}_e{num_epoch}.jpg',
             model_name=model_name)

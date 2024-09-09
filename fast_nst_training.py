@@ -152,5 +152,6 @@ for epoch in range(num_epochs):
             if (i+1) % percent_interval == 0:
                 print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item()}")
 
+# save the trained transformer_net model
 model_name = f'{style_img_name}_a{content_weight}b{style_weight}_e{num_epochs}'
 torch.save(transformer_net.state_dict(), f'./models/{model_name}.pth')
