@@ -1,7 +1,7 @@
 
 ## Overview
 
-This repository is on using two different approaches for doing **neural style (nst) transfer**. Code is implemented and tested in **Ubuntu** system with **Python 3.10**. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/blog4). 
+This repository is on using two different approaches for doing **neural style transfer (nst)**. Code is implemented and tested in **Ubuntu** system with **Python 3.10**. [iCartoonFace Dataset](https://github.com/luxiangju-PersonAI/iCartoonFace) is used for fast NST. More implementation detail can be found at this [blog post](https://lihanlian.github.io/posts/blog4). 
 
 **Content image**
 
